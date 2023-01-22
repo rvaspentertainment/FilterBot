@@ -54,7 +54,7 @@ WELCOM_PIC = environ.get("WELCOM_PIC", "")
 WELCOM_TEXT = environ.get("WELCOM_TEXT", "Hai {user}\nwelcome to {chat}")
 PMFILTER = bool(environ.get("PMFILTER"))
 G_FILTER = bool(environ.get("G_FILTER", True))
-BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", True))
+BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", False))
 
 # Others
 IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
